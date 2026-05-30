@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Personal portfolio of Agatheesan D K - Malware Analyst, Security Researcher, and AI/DS Engineer. Dissecting binaries, mapping TTPs to MITRE ATT&CK, and bridging ML with cyber defense." />
+  <meta name="keywords"
+    content="Malware Analyst, Security Researcher, Reverse Engineering, Threat Intelligence, AI Security, Cyber Security, Agatheesan D K, MITRE ATT&CK, x32dbg, IDA Pro" />
+  <title>Agatheesan D K | Cybersecurity Analyst & AI Security Researcher</title>
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- Custom Easing Cursors -->
+  <div class="cursor-dot" id="dot"></div>
+  <div class="cursor-ring" id="ring"></div>
+
+  <!-- Scanlines Overlay -->
+  <div class="scanlines"></div>
+
+  <!-- Dynamic Particles Canvas -->
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- NAVIGATION -->
+  <header>
+    <nav>
+      <div class="nav-container">
+        <a href="#" class="nav-logo"><img src="assets/hacker_avatar.png" alt="Logo" style="height: 45px; width: auto; display: block;" /></a>
+        <div class="nav-links-wrapper" id="navLinks">
+          <ul class="nav-links">
+            <!-- Dynamically populated by cms.js -->
+            <li><a href="#about">Profile</a></li>
+            <li><a href="#skills">Arsenal</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#operations">Operations</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle Theme">
+            <span class="theme-icon">🌙</span>
+          </button>
+        </div>
+        <button class="nav-hamburger" id="hamburger" aria-label="Toggle Navigation Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="hero">
+    <div class="hero-left">
+      <!-- Dynamically populated by cms.js -->
+      <div class="hero-eyebrow">// System Online — Analyst Active</div>
+      <h1 class="hero-name">
+        BALA AGATHEESAN<br>
+        <span>D K</span>
+      </h1>
+      <p class="hero-subtitle">
+        <em>Malware Analyst</em> · Security Researcher · AI/DS Engineer
+      </p>
+      <div class="hero-bio">
+        I reverse what others build to break things. Trained under K7 Computing researchers (K7 Academy) with top grade.
+        25+ real Windows malware samples dissected — viruses, worms, RATs, droppers. Windows internals, PE format,
+        persistence mechanisms. MITRE ATT&amp;CK mappings. This is not classroom theory.
+      </div>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-gold"><span>// View Operations</span></a>
+        <a href="#contact" class="btn btn-outline">Establish Contact</a>
+      </div>
+    </div>
+
+    <!-- Photo badge & frame -->
+    <div class="photo-card reveal">
+      <div class="photo-frame">
+        <div class="photo-content">
+          <!-- Placeholder avatar image, which we will later generate or link -->
+          <img src="assets/hacker_avatar.png" id="avatarImg" alt="Bala Agatheesan D K"
+            onerror="this.style.display='none'; document.getElementById('initialsCard').style.display='flex';" />
+          <div class="photo-content-fallback" id="initialsCard"
+            style="display:none; flex-direction:column; align-items:center; justify-content:center; width:100%; height:100%;">
+            <div class="photo-initials">DK</div>
+            <div class="photo-tagline">Bala Agatheesan D K</div>
+          </div>
+        </div>
+        <div class="photo-badge">
+          <span class="photo-badge-title">BALA AGATHEESAN D K</span>
+          <span class="photo-badge-status">
+            <span class="status-dot"></span>
+            <span>AVAILABLE FOR HIRE</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-icon">◆ PROFILE ◆</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- PROFILE SECTION -->
+  <section id="about">
+    <!-- Dynamically populated by cms.js -->
+    <div class="sec-label" data-num="01">// Background Dossier</div>
+    <h2 class="sec-title">Behind the Terminal</h2>
+    <p class="sec-sub">Bridging threat intelligence with machine learning.</p>
+
+    <div class="about-layout">
+      <div class="about-text reveal">
+        <!-- Dynamically populated by cms.js -->
+        <p>B.Tech student in <strong>Artificial Intelligence & Data Science</strong> at Knowledge Institute of
+          Technology, Salem — CGPA 8.35. My academic path diverged early into the darker corridors of cybersecurity.</p>
+      </div>
+
+      <div class="stats-panel reveal">
+        <!-- Dynamically populated by cms.js -->
+        <div class="stat-cell">
+          <span class="stat-num">25+</span>
+          <span class="stat-lbl">Malware Analyzed</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARSENAL (SKILLS) SECTION -->
+  <section id="skills">
+    <!-- Dynamically populated by cms.js -->
+    <div class="sec-label" data-num="02">// Weaponry Inventory</div>
+    <h2 class="sec-title">The Arsenal</h2>
+    <p class="sec-sub">Tools and methodologies loaded for threat diagnostics.</p>
+
+    <div class="skills-grid reveal">
+      <!-- Dynamically populated by cms.js -->
+    </div>
+
+    <!-- Web Terminal Emulator Component -->
+    <div class="terminal-wrapper reveal">
+      <div class="terminal-panel">
+        <div class="terminal-panel-header">
+          <div class="terminal-title">Security Operations Console</div>
+          <div class="terminal-buttons">
+            <div class="term-btn red"></div>
+            <div class="term-btn yellow"></div>
+            <div class="term-btn green"></div>
+          </div>
+        </div>
+        <div class="terminal-panel-body" id="termBody">
+          <!-- Printed lines injected via terminal.js -->
+        </div>
+        <div class="terminal-panel-footer">
+          <div class="term-input-line">
+            <span class="term-prompt" id="termPromptText">guest@user:~$ </span>
+            <form id="termForm" style="display: flex; flex: 1; align-items: center;">
+              <input type="text" class="term-input" id="termInput" autocomplete="off"
+                placeholder="Type a command (e.g. help, about, decrypt)..." />
+            </form>
+            <span class="term-cursor"></span>
+          </div>
+          <div class="terminal-suggest-title">Operational Presets:</div>
+          <div class="terminal-suggest-tags">
+            <!-- Dynamically populated by cms.js -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-icon">◆ PROJECTS ◆</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- DEVELOPMENT PROJECTS SECTION -->
+  <section id="projects">
+    <!-- Dynamically populated by cms.js -->
+    <div class="sec-label" data-num="03">// Engineering Operations</div>
+    <h2 class="sec-title">Projects</h2>
+    <p class="sec-sub">Fully functional applications and automated tooling built with code.</p>
+
+    <div class="projects-grid">
+      <!-- Dynamically populated by cms.js -->
+    </div>
+  </section>
+
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-icon">◆ OPERATIONS ◆</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- OPERATIONS (SANDBOX SIMULATOR) SECTION -->
+  <section id="operations">
+    <!-- Dynamically populated by cms.js -->
+    <div class="sec-label" data-num="04">// ACTIVE THREAT ANALYSIS</div>
+    <h2 class="sec-title">Operations Sandbox</h2>
+    <p class="sec-sub">Dissecting real-world malware samples inside a simulated SOC environment.</p>
+
+    <div class="sandbox-container">
+      <!-- Configuration Hub -->
+      <div class="sandbox-config-panel reveal">
+        <div class="sandbox-config-title">Dossier Selector</div>
+
+        <div class="sandbox-field">
+          <label class="sandbox-label" for="sandboxSampleSelect">Active Sample:</label>
+          <select class="sandbox-select" id="sandboxSampleSelect">
+            <!-- Dynamically populated by cms.js -->
+          </select>
+        </div>
+
+        <div class="sandbox-static-details">
+          <div class="static-item">
+            <label class="sandbox-label sb-lbl-md5">MD5 HASH:</label>
+            <div class="static-val" id="sbMd5">--</div>
+          </div>
+          <div class="static-item">
+            <label class="sandbox-label sb-lbl-entropy">ENTROPY:</label>
+            <div class="static-val" id="sbEntropy">--</div>
+          </div>
+          <div class="static-item">
+            <label class="sandbox-label sb-lbl-imports">IMPORTED APIS:</label>
+            <div class="static-val skills-tags" id="sbImports" style="margin-top: 0.4rem;">
+              <!-- Tags injected via sandbox.js -->
+            </div>
+          </div>
+          <div class="static-item">
+            <label class="sandbox-label">Static Dossier Summary:</label>
+            <div class="static-notes" id="sbStaticNotes">--</div>
+          </div>
+        </div>
+
+        <button class="btn btn-gold btn-sandbox-run" id="sandboxRun">
+          <span>// RUN SANDBOX ANALYSIS</span>
+        </button>
+      </div>
+
+      <!-- Live Sandbox Output Display -->
+      <div class="sandbox-display-panel reveal">
+        <div class="sandbox-tabs">
+          <!-- Dynamically populated by cms.js -->
+        </div>
+        <div class="sandbox-tab-body">
+
+          <!-- Term log output -->
+          <div class="sandbox-tab-content active" id="tab-terminal">
+            <div class="sandbox-terminal-screen" id="sandboxTerminal">
+              <!-- Dynamically populated logging -->
+            </div>
+          </div>
+
+          <!-- Drops Output -->
+          <div class="sandbox-tab-content" id="tab-drops">
+            <div id="sbDropsList">
+              <!-- Injected dynamically -->
+            </div>
+          </div>
+
+          <!-- Registry Output -->
+          <div class="sandbox-tab-content" id="tab-registry">
+            <div id="sbRegistryList">
+              <!-- Injected dynamically -->
+            </div>
+          </div>
+
+          <!-- MITRE mapping output -->
+          <div class="sandbox-tab-content" id="tab-mitre">
+            <div id="sbMitreList">
+              <!-- Injected dynamically -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-icon">◆ INTEL ◆</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- INTEL (PUBLICATIONS) SECTION -->
+  <section id="publications">
+    <!-- Dynamically populated by cms.js -->
+    <div class="sec-label" data-num="05" style="justify-content: center;">// Classified Intel</div>
+    <h2 class="sec-title" style="text-align: center;">Intel Drops</h2>
+    <p class="sec-sub" style="text-align: center;">Technical malware writeups and threat intelligence leaks.</p>
+
+    <div class="pub-box reveal">
+      <!-- Dynamically populated by cms.js -->
+      <span class="pub-ico">🔍</span>
+      <h3>Transmissions Incoming</h3>
+      <p>Detailed APT analysis logs · Windows Kernel Exploit Studies · Reverse engineering deep dives<br><br><span style='color: var(--gold); letter-spacing: 0.3em;'>// CLASSIFIED UNTIL PUBLICATION</span></p>
+    </div>
+  </section>
+
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-icon">◆ INTERACTION ◆</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <!-- Dynamically populated by cms.js -->
+    <div class="sec-label" data-num="06">// Establishing Channel</div>
+    <h2 class="sec-title">Secure Uplink</h2>
+    <p class="sec-sub">Reach out to initiate operational collaborations or recruitment links.</p>
+
+    <div class="contact-layout">
+      <div class="contact-text reveal">
+        <!-- Dynamically populated by cms.js -->
+        <p>Actively seeking cybersecurity analyst positions...</p>
+        <div class="contact-links">
+          <!-- Dynamically populated by cms.js -->
+        </div>
+      </div>
+
+      <!-- Contact form container -->
+      <div class="glass-panel contact-form-panel reveal">
+        <form id="contactForm">
+          <div class="form-group">
+            <label class="form-label" for="formName">Identity / Agency Name:</label>
+            <input type="text" class="form-control" id="formName" placeholder="Transmitter Identity" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="formEmail">Target Communication Port (Email):</label>
+            <input type="email" class="form-control" id="formEmail" placeholder="agency@comms.net" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="formMessage">Encrypted Transmission Data:</label>
+            <textarea class="form-control" id="formMessage" placeholder="Type your transmission log..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold btn-submit" id="formSubmit">
+            <span>// DISPATCH ENCRYPTED PACKET</span>
+          </button>
+        </form>
+
+        <!-- Secure logs uploading HUD -->
+        <div class="form-secure-overlay" id="secureOverlay">
+          <div class="secure-overlay-title">TRANS-SECURITY ACTIVE</div>
+          <div class="secure-overlay-log" id="secureLog">
+            <!-- Appended lines by app.js -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <!-- Dynamically populated by cms.js -->
+    <p>© 2026 <strong>BALA AGATHEESAN D K</strong> &nbsp;·&nbsp; All systems operational</p>
+  </footer>
+
+  <!-- Core Scripts -->
+  <script src="js/particles.js"></script>
+  <script src="js/cms.js"></script>
+  <script src="js/terminal.js"></script>
+  <script src="js/sandbox.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,580 @@
+{
+  "meta": {
+    "title": "Bala Agatheesan D K | Cybersecurity Analyst & AI Security Researcher",
+    "description": "Personal portfolio of Bala Agatheesan D K - Malware Analyst, Security Researcher, and AI/DS Engineer. Dissecting binaries, mapping TTPs to MITRE ATT&CK, and bridging ML with cyber defense.",
+    "keywords": "Malware Analyst, Security Researcher, Reverse Engineering, Threat Intelligence, AI Security, Cyber Security,Bala Agatheesan D K, MITRE ATT&CK, x32dbg, IDA Pro"
+  },
+  "nav": {
+    "logo": "assets/hacker_avatar.png",
+    "links": [
+      {
+        "href": "#about",
+        "text": "Profile"
+      },
+      {
+        "href": "#skills",
+        "text": "Arsenal"
+      },
+      {
+        "href": "#projects",
+        "text": "Projects"
+      },
+      {
+        "href": "#operations",
+        "text": "Operations"
+      },
+      {
+        "href": "#contact",
+        "text": "Contact"
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "// System Online — Analyst Active",
+    "name": "BALA AGATHEESAN<br><span>D K</span>",
+    "subtitle": "<em>Malware Analyst</em> · Security Researcher · AI/DS Engineer",
+    "bio": "I analyze and reverse what others build to break things. 25+ real Windows malware samples dissected — viruses, worms, RATs, droppers. Windows internals, PE format, persistence mechanisms. MITRE ATT&CK mappings. ",
+    "ctas": [
+      {
+        "href": "#projects",
+        "text": "// View Operations",
+        "class": "btn btn-gold"
+      },
+      {
+        "href": "#contact",
+        "text": "Establish Contact",
+        "class": "btn btn-outline"
+      }
+    ],
+    "photo": {
+      "initials": "DK",
+      "tagline": "Bala Agatheesan D K",
+      "badgeTitle": "BALA AGATHEESAN D K",
+      "badgeStatus": "AVAILABLE FOR HIRE"
+    }
+  },
+  "profile": {
+    "num": "01",
+    "eyebrow": "// Background Dossier",
+    "title": "Behind the Terminal",
+    "sub": "Bridging threat intelligence with machine learning.",
+    "paragraphs": [
+      "B.Tech student in <strong>Artificial Intelligence & Data Science</strong> at Knowledge Institute of Technology, Salem — CGPA 8.35. My academic path diverged early into the darker corridors of cybersecurity.",
+      "Trained hands-on malware analysis</strong>. Analyzed 25–30+ real Windows malware samples across five families. ",
+      "I work where malware meets intelligence — reverse engineering binaries, mapping adversary TTPs to <strong>MITRE ATT&CK</strong>, and understanding the precise API hooks and injection mechanisms that compromise Windows kernels.",
+      "<strong>JLPT N5 certified.</strong> JLPT N3 is the next milestone."
+    ],
+    "stats": [
+      {
+        "num": "8.35",
+        "lbl": "CGPA (AI & DS)"
+      },
+      {
+        "num": "N5",
+        "lbl": "JLPT Japanese"
+      },
+      {
+        "num": "5 Families Dissected",
+        "lbl": "Virus · Worm · Dropper · Downloader · RAT",
+        "style": "grid-column: span 2;"
+      }
+    ]
+  },
+  "skills": {
+    "num": "02",
+    "eyebrow": "// Weaponry Inventory",
+    "title": "The Arsenal",
+    "sub": "Tools and methodologies loaded for threat diagnostics.",
+    "list": [
+      {
+        "icon": "🔬",
+        "name": "Malware Analysis",
+        "tags": [
+          "Static Analysis",
+          "Dynamic Analysis",
+          "PE Format Dumps",
+          "IDA Freeware",
+          "x32dbg"
+        ]
+      },
+      {
+        "icon": "⚙️",
+        "name": "Reverse Engineering",
+        "tags": [
+          "x86 Assembly",
+          "OllyDbg",
+          "IAT Patching",
+          "API Hooking",
+          "Windows Internals"
+        ]
+      },
+      {
+        "icon": "🎯",
+        "name": "Threat Intelligence",
+        "tags": [
+          "MITRE ATT&CK",
+          "C2 Traffic Analysis",
+          "Wireshark / PCAP",
+          "FakeNet-NG"
+        ]
+      },
+      {
+        "icon": "🛡️",
+        "name": "Security Research",
+        "tags": [
+          "Persistence Mechanisms",
+          "Registry Forensics",
+          "Windows Event Logs",
+          "APT Mappings"
+        ]
+      },
+      {
+        "icon": "🤖",
+        "name": "AI & Data Science",
+        "tags": [
+          "Python",
+          "Adversarial ML",
+          "Deep Learning",
+          "SQL / Power BI"
+        ]
+      },
+      {
+        "icon": "💻",
+        "name": "Web-development",
+        "tags": [
+          "Java",
+          "C Language",
+          "Django Framework",
+          "Git / GitHub"
+        ]
+      }
+    ],
+    "console": {
+      "title": "Security Operations Console",
+      "placeholder": "Type a command (e.g. help, about, decrypt)...",
+      "suggestTitle": "Operational Presets:",
+      "presets": [
+        "help",
+        "about",
+        "skills",
+        "ops",
+        "mitre",
+        "decrypt"
+      ]
+    }
+  },
+  "projects": {
+    "num": "03",
+    "eyebrow": "// Engineering Operations",
+    "title": "Projects",
+    "sub": "Fully functional applications and automated tooling built with code.",
+    "list": [
+      {
+        "num": "// Project 01",
+        "title": "College Lab Management",
+        "body": "A digital resource orchestration system built to streamline inventory tracking, lab allocations, hardware maintenance logs, and schedules for college academic labs.",
+        "tags": [
+          "Java",
+          "Python",
+          "SQL Database"
+        ]
+      },
+      {
+        "num": "// Project 02",
+        "title": "Nearby College Event Finder",
+        "body": "A localized, geo-aware web application mapping technical symposia, academic hackathons, and cultural events hosted across nearby partner institutions in real-time.",
+        "tags": [
+          "JavaScript",
+          "Geolocation",
+          "Maps API",
+          "Real-Time DB"
+        ]
+      },
+      {
+        "num": "// Project 03",
+        "title": "Emergency AI-Assistant",
+        "body": "An AI-powered emergency assistance solution that detects road accidents, tracks the victim's location using GPS, and identifies nearby hospitals for quick medical support. By automating accident detection and emergency response, it helps reduce reporting delays and improves road safety.",
+        "tags": [
+          "Deep Learning",
+          "Python",
+          "TensorFlow",
+          "Route Optimization"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "num": "04",
+    "eyebrow": "// ACTIVE THREAT ANALYSIS",
+    "title": "Operations Sandbox",
+    "sub": "Dissecting real-world malware samples inside a simulated SOC environment.",
+    "selectorLabel": "Active Sample:",
+    "staticLabels": {
+      "md5": "MD5 HASH:",
+      "entropy": "ENTROPY:",
+      "imports": "IMPORTED APIS:",
+      "summary": "Static Dossier Summary:"
+    },
+    "runBtnText": "// RUN SANDBOX ANALYSIS",
+    "runBtnRunningText": "ANALYSIS IN PROGRESS...",
+    "diagnosticsReadyText": "// Diagnostics ready. Select a malware sample and press run.",
+    "tabs": [
+      {
+        "id": "terminal",
+        "text": "Telemetry logs"
+      },
+      {
+        "id": "drops",
+        "text": "File Drops"
+      },
+      {
+        "id": "registry",
+        "text": "Registry"
+      },
+      {
+        "id": "mitre",
+        "text": "MITRE TTPs"
+      }
+    ],
+    "samples": {
+      "usbWorm": {
+        "name": "Worm.Propagate.USB",
+        "md5": "7b8f9e6a5d4c3b2a1e0f9d8c7b6a5e4d",
+        "entropy": "6.74 (Medium-Low Obfuscation)",
+        "imports": [
+          "CreateFileW",
+          "WriteFile",
+          "RegSetValueExA",
+          "GetDriveTypeW",
+          "ShellExecuteW",
+          "InternetOpenW",
+          "InternetConnectW"
+        ],
+        "staticNotes": "Flagged 14 critical IAT imports. High probability of removable media scanning (T1091).",
+        "dynamicLogs": [
+          "00:01.05 - [INFO] Process spawned (PID: 3412) - Worm.Propagate.USB.exe",
+          "00:01.40 - [AUDIT] Querying logical drives...",
+          "00:01.95 - [WARN] Detected drive type modification: Drive E:\\\\ (REMOVABLE)",
+          "00:02.30 - [ALERT] File Created: E:\\\\autorun.inf (Dropped LNK target)",
+          "00:02.85 - [ALERT] File Created: E:\\\\SysHelper.exe (Payload replica)",
+          "00:03.40 - [AUDIT] Writing persistence registry key...",
+          "00:04.10 - [ALERT] Registry Written: HKCU\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\\\\SysHelper -> \"E:\\\\SysHelper.exe\"",
+          "00:04.90 - [INFO] Initiating network socket initialization...",
+          "00:05.50 - [ALERT] DNS Request: beacon-c2-primary.net -> Resolved: 185.190.140.23",
+          "00:06.10 - [ALERT] Network Connection: Outbound to 185.190.140.23:8080 (ESTABLISHED)",
+          "00:06.85 - [INFO] Sleeping for 60 seconds (Anti-analysis bypass)...",
+          "00:07.00 - [SUCCESS] Sandbox run completed. Target mapped."
+        ],
+        "fileDrops": [
+          {
+            "path": "E:\\\\autorun.inf",
+            "desc": "Auto-run instruction targeting replication payload."
+          },
+          {
+            "path": "E:\\\\SysHelper.exe",
+            "desc": "Replicated worm executable masquerading as a system file."
+          }
+        ],
+        "registryChanges": [
+          {
+            "path": "HKCU\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\\\\SysHelper",
+            "val": "E:\\\\SysHelper.exe",
+            "desc": "Establishes persistence upon user logon."
+          }
+        ],
+        "mitreTactics": [
+          {
+            "id": "T1091",
+            "name": "Replication Through Removable Media",
+            "desc": "Self-propagates by dropping replica binaries and malicious autorun files on accessible external flash drives."
+          },
+          {
+            "id": "T1547.001",
+            "name": "Registry Run Keys / Startup Folder",
+            "desc": "Adds payload path to the HKCU Run registry key to trigger automatic startup upon Windows logon."
+          },
+          {
+            "id": "T1071.001",
+            "name": "Application Layer Protocol: Web Protocols",
+            "desc": "Establishes Command and Control (C2) communication via standard HTTP requests to exfiltrate logs."
+          }
+        ]
+      },
+      "dropperPE": {
+        "name": "Dropper.Win32.PE",
+        "md5": "fa9e8d7c6b5a4d3c2b1a0f9e8d7c6b5a",
+        "entropy": "7.89 (Highly Encrypted / Compressed)",
+        "imports": [
+          "VirtualAlloc",
+          "VirtualProtect",
+          "WriteProcessMemory",
+          "CreateProcessW",
+          "RegCreateKeyExW",
+          "FindResourceW",
+          "LoadResource"
+        ],
+        "staticNotes": "High entropy score indicates compression or encryption. Uses VirtualAlloc and WriteProcessMemory for process injection.",
+        "dynamicLogs": [
+          "00:00.80 - [INFO] Process spawned (PID: 4920) - Dropper.Win32.PE.exe",
+          "00:01.30 - [AUDIT] Searching application resources for encrypted payload...",
+          "00:01.90 - [INFO] Resource found (ID: 104, Size: 184512 bytes)",
+          "00:02.40 - [AUDIT] Allocating memory block (VirtualAlloc - RWX)...",
+          "00:02.90 - [INFO] Decrypting embedded payload into allocated space...",
+          "00:03.45 - [WARN] Attempting hollow process injection into svchost.exe (PID: 1204)...",
+          "00:04.10 - [ALERT] Process memory overwritten: svchost.exe (WriteProcessMemory)",
+          "00:04.60 - [ALERT] Remote thread created inside svchost.exe (Process Hollowing)",
+          "00:05.15 - [ALERT] File Created: C:\\\\Users\\\\Public\\\\UpdateHelper.dll",
+          "00:05.80 - [ALERT] Registry Written: HKLM\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\\\\Updates -> \"C:\\\\Users\\\\Public\\\\UpdateHelper.dll\"",
+          "00:06.40 - [INFO] Terminating initial dropper process (PID: 4920) to evade detection.",
+          "00:06.90 - [SUCCESS] Sandbox run completed. Injection payload logged."
+        ],
+        "fileDrops": [
+          {
+            "path": "C:\\\\Users\\\\Public\\\\UpdateHelper.dll",
+            "desc": "Injected dynamically linked library containing C2 agent logic."
+          }
+        ],
+        "registryChanges": [
+          {
+            "path": "HKLM\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\\\\Updates",
+            "val": "C:\\\\Users\\\\Public\\\\UpdateHelper.dll",
+            "desc": "System-wide startup hook to launch DLL load."
+          }
+        ],
+        "mitreTactics": [
+          {
+            "id": "T1027",
+            "name": "Obfuscated Files or Information",
+            "desc": "Employs heavy byte-level encryption of its internal sub-payload, generating a high entropy rate to mask code structures."
+          },
+          {
+            "id": "T1055.012",
+            "name": "Process Injection: Process Hollowing",
+            "desc": "Launches a suspended legitimate system utility (svchost.exe) and overwrites its memory space with malicious C2 commands."
+          },
+          {
+            "id": "T1547.001",
+            "name": "Registry Run Keys / Startup Folder",
+            "desc": "Injects startup persistence hooks in the LocalMachine hive (HKLM) requiring admin privileges."
+          }
+        ]
+      },
+      "ratDarkLoris": {
+        "name": "RAT.DarkLoris.AI",
+        "md5": "a1b2c3d4e5f60718293a4b5c6d7e8f90",
+        "entropy": "7.12 (Packer Identified)",
+        "imports": [
+          "InternetOpenW",
+          "InternetOpenUrlW",
+          "CreateThread",
+          "GetSystemInfo",
+          "GetComputerNameW",
+          "CryptGenRandom",
+          "AdjustTokenPrivileges"
+        ],
+        "staticNotes": "Packed binary. Flagged API calls for scanning local computer names and system resources for target categorization.",
+        "dynamicLogs": [
+          "00:00.90 - [INFO] Process spawned (PID: 5812) - RAT.DarkLoris.AI.exe",
+          "00:01.35 - [AUDIT] Gathering system profiles (Host, User, OS info)...",
+          "00:01.80 - [INFO] System Profile: HOST=\"WKSTN-920\", USER=\"Administrator\", OS=\"Windows 11 Enterprise\"",
+          "00:02.25 - [WARN] Searching for security software running in memory...",
+          "00:02.80 - [AUDIT] Evasion: Antivirus software check completed (No AV active in sandbox)",
+          "00:03.35 - [ALERT] Modifying system firewall permissions...",
+          "00:03.90 - [ALERT] Command Executed: netsh advfirewall firewall add rule...",
+          "00:04.50 - [INFO] Connecting to keylogger tracking module...",
+          "00:05.10 - [ALERT] Registry Written: HKCU\\\\Control Panel\\\\Desktop\\\\ScreenSaverIsSecure -> 0",
+          "00:05.70 - [ALERT] DNS Request: secure-dns-loris.org -> Resolved: 93.184.216.34",
+          "00:06.30 - [ALERT] Network Connection: Outbound to 93.184.216.34:443 (SSL/TLS Encryption Enabled)",
+          "00:06.90 - [SUCCESS] Sandbox run completed. C2 payload connection active."
+        ],
+        "fileDrops": [
+          {
+            "path": "C:\\\\Users\\\\admin\\\\AppData\\\\Roaming\\\\Loris\\\\keylog.dat",
+            "desc": "Raw binary log collecting user keystrokes."
+          }
+        ],
+        "registryChanges": [
+          {
+            "path": "HKCU\\\\Control Panel\\\\Desktop\\\\ScreenSaverIsSecure",
+            "val": "0",
+            "desc": "Disables screensaver security limits to sustain user state tracking."
+          }
+        ],
+        "mitreTactics": [
+          {
+            "id": "T1562.001",
+            "name": "Impair Defenses: Disable or Modify System Firewall",
+            "desc": "Disables or overrides network filtering limits by injecting firewall allow policies via command console."
+          },
+          {
+            "id": "T1056.001",
+            "name": "Input Capture: Keylogging",
+            "desc": "Monitors user typing behaviors, storing active keystrokes in a local cache (keylog.dat) for structured uploading."
+          },
+          {
+            "id": "T1041",
+            "name": "Exfiltration Over Command and Control Channel",
+            "desc": "Transmits compressed target configurations and sensitive files back to the adversary host using encrypted TLS sessions."
+          }
+        ]
+      }
+    }
+  },
+  "publications": {
+    "num": "05",
+    "eyebrow": "// Classified Intel",
+    "title": "Intel Drops",
+    "sub": "Technical malware writeups and threat intelligence leaks.",
+    "box": {
+      "icon": "🔍",
+      "title": "Transmissions Incoming",
+      "text": "Detailed APT analysis logs · Windows Kernel Exploit Studies · Reverse engineering deep dives<br><br><span style='color: var(--gold); letter-spacing: 0.3em;'>// CLASSIFIED UNTIL PUBLICATION</span>"
+    }
+  },
+  "contact": {
+    "num": "06",
+    "eyebrow": "// Establishing Channel",
+    "title": "Secure Uplink",
+    "sub": "Reach out to initiate operational collaborations or recruitment links.",
+    "text": "Actively seeking cybersecurity analyst positions, malware analysis roles, and security research opportunities — India-based, remote, or international. Special interest in Tokyo-based cyber firms (building toward N3 Japanese capability). If you are looking for an analyst who reverses binaries instead of reading slides, let's talk.",
+    "links": [
+      {
+        "icon": "🔗",
+        "text": "linkedin.com/in/bala-agatheesan",
+        "url": "https://www.linkedin.com/in/bala-agatheesan-36268b290"
+      },
+      {
+        "icon": "⚡",
+        "text": "github.com/balaagatheesandk",
+        "url": "https://github.com/balaagatheesandk"
+      },
+      {
+        "icon": "📡",
+        "text": "balaagatheesandk@gmail.com",
+        "url": "mailto:balaagatheesandk@gmail.com"
+      }
+    ],
+    "form": {
+      "nameLabel": "Identity / Agency Name:",
+      "namePlaceholder": "Transmitter Identity",
+      "emailLabel": "Target Communication Port (Email):",
+      "emailPlaceholder": "agency@comms.net",
+      "messageLabel": "Encrypted Transmission Data:",
+      "messagePlaceholder": "Type your transmission log...",
+      "submitBtnText": "// DISPATCH ENCRYPTED PACKET",
+      "secureOverlayTitle": "TRANS-SECURITY ACTIVE",
+      "secureOverlaySteps": [
+        "Establishing connection: secure uplink initializing...",
+        "Cipher: AES-256-GCM key negotiation negotiated",
+        "Parsing transmitter identity: ",
+        "Performing integrity hashing on message payload...",
+        "Payload dispatch: telemetry packets bypassed perimeter.",
+        "Transmission success. Operational link established."
+      ],
+      "closeBtnText": "// Terminate Channel"
+    }
+  },
+  "footer": {
+    "text": "© 2026 <strong>BALA AGATHEESAN D K</strong> &nbsp;·&nbsp; All systems operational &nbsp;·&nbsp; Built with intent"
+  },
+  "terminal": {
+    "title": "Security Operations Console",
+    "welcomeLines": [
+      {
+        "text": "Initializing guest Security Operations Console...",
+        "style": "dim"
+      },
+      {
+        "text": "System Status: ONLINE",
+        "style": "success"
+      },
+      {
+        "text": "Authentication: GUEST_ANALYST",
+        "style": "gold"
+      },
+      {
+        "text": "Type \"help\" for a list of available operations.",
+        "style": "dim"
+      },
+      {
+        "text": "",
+        "style": "normal"
+      }
+    ],
+    "help": {
+      "header": "--- Operations Console Help ---",
+      "lines": [
+        "help     : Show this menu.",
+        "about    : Print Bala Agatheesan's operational dossier & training background.",
+        "skills   : Output key weapons of choice (analysis & dev tools).",
+        "ops      : Print active cyber defense field ops & malware briefs.",
+        "mitre    : View adversary TTP mappings mapped during testing.",
+        "contact  : Display telemetry open channels to establish connection.",
+        "decrypt  : Decrypt classified logs (matrix decoding sequence).",
+        "clear    : Wipe terminal screen."
+      ]
+    },
+    "about": {
+      "header": "--- Telemetry Dossier: Bala Agatheesan D K ---",
+      "lines": [
+        "Track     : Artificial Intelligence & Data Science (B.Tech Pre-Final Year)",
+        "Academy   : Knowledge Institute of Technology (CGPA: 8.35)",
+        "Training  : Professionally mentored under K7 Computing researchers (K7 Academy).",
+        "Rank      : Awarded TOP grade by professional threat researchers in the program.",
+        "Samples   : 25-30+ real malware samples fully dissected (viruses, worms, RATs, droppers).",
+        "Japanese  : JLPT N5 certified. Studying for N3 next to target Japanese cybersecurity roles."
+      ]
+    },
+    "skills": {
+      "header": "--- System Arsenal ---",
+      "lines": [
+        "[Analysis] Static/Dynamic analysis, PE structural analysis, Registry forensics",
+        "[Tools] IDA Freeware, x32dbg, OllyDbg, FakeNet-NG, Wireshark, Process Monitor",
+        "[Threat Intel] MITRE ATT&CK tactics, Windows internals & API Hooking, C2 behaviors",
+        "[AI & Code] Python, PyTorch, SQL, Power BI, Java, C, Django, Git/GitHub"
+      ]
+    },
+    "ops": {
+      "header": "--- Cyber Defense Field Operations ---",
+      "lines": [
+        "1. [Worm.Removable.USB] - USB Worm Propagation Behavioral Analysis",
+        "- Static phase: analyzed PE structure, flagged 14 suspicious API imports.",
+        "- Dynamic phase: traced registry run key HKCU\\\\Run\\\\SysHelper, and FakeNet C2 DNS requests.",
+        "2. [Malware-Archive] - 20+ Real Samples Catalog (Worm, Virus, RAT, Dropper)",
+        "3. [AI-Threat-Detection] - Adversarial ML and Deep Learning-based Classification"
+      ]
+    },
+    "mitre": {
+      "header": "--- Mapped Adversary Tactics (MITRE ATT&CK) ---",
+      "lines": [
+        "• <b>T1091</b>: Replication Through Removable Media (Removable USB worms)",
+        "• <b>T1547</b>: Boot or Logon Autostart Execution (HKCU\\\\Run registry drop)",
+        "• <b>T1012</b>: Query Registry (Detecting security controls/AV systems)",
+        "• <b>T1132</b>: Data Encoding (Obfuscating strings inside PE loader)",
+        "• <b>T1071</b>: Application Layer Protocol (C2 network beaconing via custom domains)"
+      ]
+    },
+    "contact": {
+      "header": "--- Telemetry Open Channels ---",
+      "lines": [
+        "LinkedIn  : <a href=\"https://linkedin.com/in/agatheesan\" target=\"_blank\" class=\"term-link\">linkedin.com/in/agatheesan</a>",
+        "GitHub    : <a href=\"https://github.com/agatheesan\" target=\"_blank\" class=\"term-link\">github.com/agatheesan</a>",
+        "Email     : <a href=\"mailto:agatheesan@email.com\" class=\"term-link\">agatheesan@email.com</a>",
+        "Status    : Open for malware analysis roles & research collaborations"
+      ]
+    },
+    "decrypt": {
+      "loading": "Connecting to classified threat database...",
+      "successHeader": "[SUCCESS] Decryption Completed. Classified IOC logs unpacked:",
+      "lines": [
+        "----------------------------------------------------",
+        "SAMPLE ID  : TR-9478-LNK-WORM",
+        "MD5 HASH   : 2d1a3c6f8e7b5a0d3f2c6e8b4a0f3d9e",
+        "IOC FILED  : C:\\\\Windows\\\\System32\\\\autorun.inf",
+        "REGISTRY   : HKCU\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\\\\helper",
+        "TELEMETRY  : Connection outbound logged on port 8080.",
+        "----------------------------------------------------"
+      ]
+    }
+  }
+}
